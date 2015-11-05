@@ -1,8 +1,15 @@
+[q2]: img/IMG_1666.JPG
+[q3]: img/IMG_1656.JPG
+
 #Relatório de Redes (TCP/IP) sobre VLANs
 
 ##Questões
 
+
+
 ### Seção 3.1
+
+------------------------------
 
 #### Questão 1
 
@@ -10,7 +17,7 @@
 	
 	Depois de ter realizado os passos da Seção 3.1, a topologia criada possui apenas 1 domínio de broadcast. Como visto na figura, criamos apenas uma VLAN no switch (VLAN001), a qual abrange as 52 portas (GE1/0/1 - GE1/0/52).
 
-	[q1]
+	![q1]
 
 #### Questão 2
 
@@ -33,6 +40,7 @@ terminal da sua máquina virtual e ative a captura de pacotes na interface eth0.
 ping para o endereço 192.168.0.208. Apresente um log do wireshark que
 demonstra a recepção destas requisições ARP.
 
+![q2]
 
 ### Seção 3.2
 
@@ -56,7 +64,7 @@ demonstra a recepção destas requisições ARP.
 	
 	Porque elas estão em VLANs diferentes.
 
-
+![q3]
 
 ### Seção 3.3
 
